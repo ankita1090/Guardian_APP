@@ -16,3 +16,11 @@ Guardian is a real-time safety solution designed for immediate emergency assista
 
 ## 📥 Getting Started
 Download the latest APK from the [Releases](https://github.com/ankita1090/Guardian_APP/releases) section.
+## 📸 App Screenshots
+
+<p align="center">
+  <img src="permission_page.jpeg" width="200" title="Permissions">
+  <img src="Home_page.jpeg" width="200" title="Home Screen">
+  <img src="Working _page.jpeg" width="200" title="App Working">
+  <img src="Help_page.jpeg" width="200" title="Help Section">
+</p>
