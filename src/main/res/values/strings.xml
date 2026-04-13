@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="accessibility_description">Guardian service to detect volume button clicks for safety.</string>
+    <string name="app_name">app1</string>
+</resources>

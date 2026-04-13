@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F4FF"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"> <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+  <LinearLayout
+      android:id="@+id/header"
+      android:layout_width="match_parent"
+      android:layout_height="80dp"
+      android:background="#1A1A2E"
+      android:orientation="horizontal"
+      android:gravity="bottom|center_vertical"
+      android:paddingStart="16dp"
+      android:paddingEnd="16dp"
+      android:paddingBottom="12dp"
+      android:elevation="8dp">
+
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:padding="4dp"
+        android:src="@drawable/backward"
+        app:tint="#FFFFFF" /> <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Contact Us"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      android:layout_marginStart="20dp"
+      android:textColor="#FFFFFF" /> </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:gravity="center"
+      android:padding="32dp">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@android:drawable/ic_dialog_email"
+        app:tint="#1A1A2E"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We're here to help!"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#1A1A2E"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send us a message and we'll get back to you as soon as possible."
+        android:textSize="14sp"
+        android:textColor="#9CA3AF"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:paddingLeft="24dp"
+      android:paddingRight="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Name"
+        android:textStyle="bold"
+        android:textColor="#1A1A2E"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter your name"
+        android:background="@drawable/circle_border"
+        android:backgroundTint="#FFFFFF"
+        android:padding="12dp"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Email"
+        android:textStyle="bold"
+        android:textColor="#1A1A2E"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter your email"
+        android:background="@drawable/circle_border"
+        android:backgroundTint="#FFFFFF"
+        android:padding="12dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        android:textStyle="bold"
+        android:textColor="#1A1A2E"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="Write your message here..."
+        android:background="@drawable/circle_border"
+        android:backgroundTint="#FFFFFF"
+        android:padding="12dp"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Send Message"
+        android:backgroundTint="#1A1A2E"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginBottom="40dp"/>
+
+  </LinearLayout>
+</LinearLayout>
+</ScrollView>
